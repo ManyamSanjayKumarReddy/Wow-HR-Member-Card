@@ -36,7 +36,7 @@ function CertificateContainer() {
 
   return (
     <div className='certificatecontainer'>
-<img   style={{width:"350px",height:"70px"}} src='https://wowhr.in/assets/site_assets/images/wow-hr-logo.png'></img>
+<img   style={{width:"350px",height:"70px"}} src='https://wowhr.in/assets/site_assets/images/wow-hr-logo.png' alt='image'></img>
 '
       <div style={{marginRight:"250px"}}className='leftcontainer'>
           <div className='certificate' ref={CertificateRef}>
@@ -64,7 +64,7 @@ function CertificateContainer() {
             </div>
         </div>
         <div class="dpcontainer">
-            <img src={authcontext.dp} alt="" id="dp"></img>
+            <img src={authcontext.dp} alt="image" id="dp"></img>
         </div>
           </div>
       </div>

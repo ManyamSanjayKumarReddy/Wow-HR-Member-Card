@@ -1,6 +1,5 @@
 import './App.css';
 import CertificateContainer from './components/certificate/CertificateContainer';
-import html2pdf from 'html2pdf.js';
 import Login from './components/login/Login';
 import { Routes, Route } from 'react-router-dom';
 
